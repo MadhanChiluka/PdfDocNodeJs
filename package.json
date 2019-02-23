@@ -1,0 +1,19 @@
+{
+  "name": "pdf_nodejs",
+  "version": "1.0.0",
+  "description": "PdfGeneration using Nodejs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "Madhan Chiluka",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "bootstrap": "^4.3.1",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.10",
+    "pdfmake": "^0.1.53"
+  }
+}
